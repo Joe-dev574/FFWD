@@ -25,7 +25,7 @@ struct FFWDApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemListView(item: Item())
         }
         .modelContainer(sharedModelContainer)
     }
